@@ -1,0 +1,4 @@
+class ActiveStorage::Blob < ActiveStorage::Record
+  class ActiveRecord_Associations_CollectionProxy < ActiveRecord::Associations::CollectionProxy
+  end
+end

@@ -1,0 +1,4 @@
+class ActiveStorage::Attachment < ActiveStorage::Record
+  class ActiveRecord_Associations_CollectionProxy < ActiveRecord::Associations::CollectionProxy
+  end
+end
